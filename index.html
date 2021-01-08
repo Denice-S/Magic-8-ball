@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section class="header">
+        <h1>
+            Magic 8 Ball!</h1>
+        <h2>Ask my Magic 8 ball a question, and click shake!</h2>
+        <input type="text" placeholder="Ask your question here" id="question">
+        <button id="start"> Shake</button>
+        <button id="reset">Ask Again</button>
+    </section>
+
+    <section class="stage">
+        <div id="eight-ball" class="eight-ball">
+            <span class="shadow"></span>
+            <div class="answer">
+                <p id="eight">8</p>
+                <p id="answer"></p>
+            </div>
+    </section>
+    <script src="app.js" async defer></script>
+</body>
+
+</html>
